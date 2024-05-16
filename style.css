@@ -1,0 +1,40 @@
+.post-box {
+	padding: 0 !important;
+	background-color: #eeeded;
+}
+
+.post-box h2 {
+	padding-top: 40px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.post-box .post-content {
+	padding-left: 53px;
+	padding-right: 50px;
+}
+
+.post-answer {
+	position: relative;
+	bottom: 0;
+	padding-top: 50px;
+	padding-bottom: 0;
+	align-items: center;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.post-answer > div {
+	padding-left: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	cursor: pointer;
+}
+
+.post-answer .post-approve:hover, .post-answer .post-approve.active {
+	background-color: rgba(9, 189, 9, 0.582);
+}
+
+.post-answer .post-decline:hover, .post-answer .post-decline.active {
+	background-color: rgba(189, 9, 9, 0.582);
+}
